@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+.nav-center {
+  width: 90vw;
+  max-width: 870px;
+  display: grid;
+  margin: 2rem auto;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.nav-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-self: right;
+}
+
+.nav-links li {
+  justify-self: right;
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.nav-title {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  color: #575fb9;
+}
+
+@media screen and (min-width: 896px) {
+  .nav-title {
+    font-size: 2rem;
+  }
+  .container {
+    margin: 10rem;
+  }
+
+  .btn {
+    margin-top: 5rem;
+    font-size: 1.5rem;
+  }
+}
+
+.container {
+  display: block;
+  text-align: center;
+}
+
+.container h2 {
+  background: black;
+  padding: 1rem 1rem;
+  margin-bottom: 3rem;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 15rem;
+  text-transform: capitalize;
+}
+
+.container span {
+  display: block;
+  color: chocolate;
+  margin-top: 0.5rem;
+  font-size: 2rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  color: white;
+  background: black;
+}
