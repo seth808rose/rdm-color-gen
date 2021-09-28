@@ -84,7 +84,6 @@ nav {
   font-size: 2rem;
 }
 
-
 .btn {
   padding: 0.8rem 1rem;
   border-radius: 5px;
@@ -93,7 +92,7 @@ nav {
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
-  transition: all 0.3s linear;
+  transition: all 0.1s linear;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
