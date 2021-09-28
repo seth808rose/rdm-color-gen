@@ -14,10 +14,11 @@ const colors = [
   "#03dbfc",
 ];
 // add the variables----------------------------------
-const btn = document.getElementById("btn");
 const color = document.querySelector(".color");
+const btn = document.getElementById("btn");
 
 btn.addEventListener("click", function () {
+  // set variable for random number
   const randomNumber = getRandomNumber();
 
   document.body.style.backgroundColor = colors[randomNumber];
