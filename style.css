@@ -57,7 +57,7 @@ nav {
   .btn {
     margin-top: 5rem;
     font-size: 1rem;
-    letter-spacing: .4px;
+    letter-spacing: 0.4px;
   }
 }
 
@@ -67,7 +67,7 @@ nav {
 }
 
 .container h2 {
-  background: black;
+  background: rgb(26, 25, 25);
   padding: 1rem 1rem;
   margin-bottom: 3rem;
   color: white;
@@ -83,6 +83,7 @@ nav {
   margin-top: 0.5rem;
   font-size: 2rem;
 }
+
 
 .btn {
   padding: 0.8rem 1rem;
